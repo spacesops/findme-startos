@@ -1,0 +1,48 @@
+import { LangDict } from './default'
+
+export default {
+  es_ES: {
+    0: 'Interfaz web',
+    1: 'La interfaz web está lista',
+    2: 'La interfaz web no está lista',
+    3: 'Busca identificadores de Spaces en el navegador; las mismas rutas devuelven JSON a los clientes de la API',
+    4: 'Configurar certrelays',
+    5: 'Elige qué servidores certrelay consulta FindMe para obtener los registros de los identificadores',
+    6: 'Certrelays',
+    7: 'URL de certrelays que se consultan para obtener los registros de los identificadores. Deja la lista vacía para usar los relays públicos.',
+    8: 'Debe ser una URL https:// sin espacios ni comas',
+  },
+  de_DE: {
+    0: 'Weboberfläche',
+    1: 'Die Weboberfläche ist bereit',
+    2: 'Die Weboberfläche ist nicht bereit',
+    3: 'Spaces-Handles im Browser suchen; dieselben Pfade liefern API-Clients JSON',
+    4: 'Certrelays konfigurieren',
+    5: 'Wähle, welche Certrelay-Server FindMe nach Handle-Einträgen abfragt',
+    6: 'Certrelays',
+    7: 'Certrelay-URLs, die nach Handle-Einträgen abgefragt werden. Lass die Liste leer, um die öffentlichen Relays zu verwenden.',
+    8: 'Muss eine https://-URL ohne Leerzeichen oder Kommas sein',
+  },
+  pl_PL: {
+    0: 'Interfejs webowy',
+    1: 'Interfejs webowy jest gotowy',
+    2: 'Interfejs webowy nie jest gotowy',
+    3: 'Wyszukuj identyfikatory Spaces w przeglądarce; te same ścieżki zwracają JSON klientom API',
+    4: 'Skonfiguruj certrelaye',
+    5: 'Wybierz, których serwerów certrelay FindMe pyta o rekordy identyfikatorów',
+    6: 'Certrelaye',
+    7: 'Adresy URL certrelayów, z których pobierane są rekordy identyfikatorów. Pozostaw listę pustą, aby używać publicznych relayów.',
+    8: 'Musi to być adres URL https:// bez spacji i przecinków',
+  },
+  fr_FR: {
+    0: 'Interface web',
+    1: "L'interface web est prête",
+    2: "L'interface web n'est pas prête",
+    3: 'Recherchez des identifiants Spaces dans le navigateur ; les mêmes chemins renvoient du JSON aux clients API',
+    4: 'Configurer les certrelays',
+    5: 'Choisissez les serveurs certrelay que FindMe interroge pour obtenir les enregistrements des identifiants',
+    6: 'Certrelays',
+    7: 'URL des certrelays interrogés pour obtenir les enregistrements des identifiants. Laissez la liste vide pour utiliser les relais publics.',
+    8: 'Doit être une URL https:// sans espaces ni virgules',
+  },
+} satisfies Record<string, LangDict>
